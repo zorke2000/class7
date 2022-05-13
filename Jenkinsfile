@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Stage1') {
             steps {
                 echo 'running from git'
                 bat "python hello.py"
