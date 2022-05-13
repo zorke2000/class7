@@ -1,4 +1,4 @@
-properties([pipelineTriggers([cron('* 0 * * *')])])
+properties([pipelineTriggers([cron('* 1 * * *')])])
 
 pipeline {
     agent any
